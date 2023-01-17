@@ -1,0 +1,13 @@
+version: 2
+sources:
+  - name: raw_data
+    database: synergy
+    schema: production
+    tables:
+      - name: bonus_bonusmanualreward
+      - name: voice_core_voiceplayermission
+      - name: voice_core_voicemissionoutcome
+      - name: voice_core_callcontact
+      - name: voice_workflow_campaigncallcontact 
+      - name: voice_workflow_campaign
+      - name: voice_business_voicebusiness
